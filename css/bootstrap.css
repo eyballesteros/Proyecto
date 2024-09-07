@@ -436,10 +436,14 @@ padding: 10px;*/
   place-items: center;
   border-bottom: 1px solid #ccc;
 }
-
+.TarjetaVideo {
+  width: 500px;
+  height: 300px;
+}
 .FotoPrincipal {
-  width: 200px;
-  height: 130px;
+  width: 350px;
+  height: 220px;
+
 }
 /*--------------- Seccion Principal ---------------*/
 
