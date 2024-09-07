@@ -357,7 +357,6 @@ ol {
   text-decoration: none;
   padding: 10px 12px;
   display: block;
-  
 }
 
 .menudesplegable li a:hover {
@@ -369,6 +368,8 @@ ol {
   display: none;
   position: absolute;
   min-width: 140px;
+  padding: 0px;
+  text-align: center;
 }
 
 .menudesplegable li:hover > ul {
