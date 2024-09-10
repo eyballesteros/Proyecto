@@ -270,6 +270,8 @@ body {
   min-width: 500px;
   position: relative;
   --padding-contenedor: 0px;
+  box-sizing: border-box;
+  display: block;
 }
 .Cabecera header {
   background-color: #007bff;
@@ -303,6 +305,7 @@ body {
   grid-template-columns: 3fr 6fr 3fr;
   place-items: CEnter;
   gap: 50px;
+  
 }
 
 .TituloPrincipal {
@@ -317,6 +320,7 @@ body {
   margin: 5px 0;
   color: var(--bs-primary);
   text-align: center;
+  
 }
 
 .imagenCabecera1 {
