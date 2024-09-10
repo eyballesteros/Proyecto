@@ -8,9 +8,12 @@
 <body>
   <div class="menuContainer"></div>
 </body>
-<iframe
-  src="template/cab.htmls">
-</iframe>
+
+  <script>
+    $(document).ready(function () {
+      $('.menuContainer').load('./template/cab.html');
+    });
+  </script>
 
           <div class="ContenedorContenido">
             <h2 class="titulo bordeTitulo">Proyectos de grado</h2>
