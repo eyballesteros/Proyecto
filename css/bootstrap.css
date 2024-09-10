@@ -267,11 +267,13 @@ body {
 
 .Cabecera {
   height: 200px;
-  min-width: auto;
+  min-width: 500px;
   position: relative;
-  --padding-contenedor: auto;
+  --padding-contenedor: 0px;
 }
-
+.Cabecera header {
+  background-color: #007bff;
+}
 
 .CabeceraMenu {
   background-color: #dfdfdf;
@@ -284,7 +286,7 @@ body {
 
 .Cabecera::after {
   content: "";
-  
+  display: block;
   position: absolute;
   height: var(--altoFondoCabecera);
   width: 100%;
@@ -301,7 +303,6 @@ body {
   grid-template-columns: 3fr 6fr 3fr;
   place-items: CEnter;
   gap: 50px;
-  
 }
 
 .TituloPrincipal {
@@ -316,7 +317,6 @@ body {
   margin: 5px 0;
   color: var(--bs-primary);
   text-align: center;
-  
 }
 
 .imagenCabecera1 {
@@ -437,8 +437,6 @@ padding: 10px;*/
   padding: 20px 0 20px;
   place-items: center;
   border-bottom: 1px solid #ccc;
-  box-sizing: border-box;
-  display: block;
 }
 .TarjetaVideo {
   width: 500px;
