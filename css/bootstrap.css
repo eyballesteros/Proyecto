@@ -267,11 +267,9 @@ body {
 
 .Cabecera {
   height: 200px;
-  min-width: 500px;
+  min-width: auto;
   position: relative;
-  --padding-contenedor: 0px;
-  box-sizing: border-box;
-  display: block;
+  --padding-contenedor: auto;
 }
 .Cabecera header {
   background-color: #007bff;
