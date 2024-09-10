@@ -73,7 +73,7 @@
           ><img src="./assets/images/Logo.svg" alt="Logo" class="imagenCabecera1""/></a
         >
         <div class="Textos">
-          <h1 class="TituloPrincipal">BANCO DE PROYECTOS</h1>
+          <h1 class="TituloPrincipal">BANCO DE PROYECTOS PRUEBA PRACTICA</h1>
           <p class="ContenedoPrincipal">INEM TUNJA</p>
         </div>
         <a href="#"
