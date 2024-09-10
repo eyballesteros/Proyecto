@@ -271,9 +271,7 @@ body {
   position: relative;
   --padding-contenedor: auto;
 }
-.Cabecera header {
-  background-color: #007bff;
-}
+
 
 .CabeceraMenu {
   background-color: #dfdfdf;
@@ -286,7 +284,7 @@ body {
 
 .Cabecera::after {
   content: "";
-  display: block;
+  
   position: absolute;
   height: var(--altoFondoCabecera);
   width: 100%;
