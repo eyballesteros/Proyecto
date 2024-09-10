@@ -1,4 +1,4 @@
-<?php include("template/cabecera.php"); ?>
+<?php include("./template/cabecera.php"); ?>
 
           <div class="ContenedorContenido">
             <h2 class="titulo bordeTitulo">Proyectos de grado</h2>
