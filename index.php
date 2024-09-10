@@ -1,4 +1,4 @@
-<?php include("template/cabecera.php"); ?>
+<?php include("template/cabecera.php"); ?>wh
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -311,3 +311,4 @@
     </footer>
   </body>
 </html>
+<?php include("template/pie.php"); ?>
