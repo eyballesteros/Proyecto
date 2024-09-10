@@ -1,6 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
-<link id="template-file" href="./template/cab.html" rel="import">
+<html lang="en">
+<head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div class="menuContainer"></div>
+</body>
+
+  <script>
+    $(document).ready(function () {
+      $('.menuContainer').load('./template/cab.html');
+    });
+  </script>
 
           <div class="ContenedorContenido">
             <h2 class="titulo bordeTitulo">Proyectos de grado</h2>
