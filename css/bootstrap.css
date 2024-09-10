@@ -270,6 +270,7 @@ body {
   min-width: 500px;
   position: relative;
   --padding-contenedor: 0px;
+  
 }
 .Cabecera header {
   background-color: #007bff;
@@ -286,8 +287,7 @@ body {
 
 .Cabecera::after {
   content: "";
-  display: block;
-  position: absolute;
+
   height: var(--altoFondoCabecera);
   width: 100%;
   top: 0;
