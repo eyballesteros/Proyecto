@@ -11,16 +11,18 @@
     $(document).ready(function () {
       $('.hcabecera').load('cabecera.html');
     });
+    $(document).ready(function () {
+          $('.piepagina').load('./template/piepagina.html');
+        });
   </script>
 
           <div class="ContenedorContenido">
             <h2 class="titulo bordeTitulo">Proyectos de grado</h2>
             <p class="Descripcion">
-              En esta pagina podran encontrar los proyectos de grado de todas
+              En esta pagina podra encontrar los proyectos de grado de todas
               las modalidades de la institución para visualizar cada proyecto.
               <br /><br />
-              La pagina busca ser una manera eficiente de almacenar los
-              proyectos para que su búsqueda se haga mas sencilla.
+              Esta página es eficiente ya que almacena los proyectos en una búsqueda sencilla
             </p>
             <div style="text-align: center">
               <iframe
@@ -30,9 +32,9 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
-            </div>
+            </div class="Contenedorfotos">
             <br />
-            <center>
+          
               <img
                 class="FotoPrincipal"
                 src="./assets/Institucion/central1.jpeg"
@@ -57,7 +59,6 @@
                 class="FotoPrincipal"
                 src="./assets/Institucion/restaurante.jpeg"
               />
-            </center>
           </div>
 
           <div class="ContenedorContenido">
@@ -106,8 +107,6 @@
 
     
       <script>
-        $(document).ready(function () {
-          $('.piepagina').load('./template/piepagina.html');
-        });
+        
       </script>
 </html>
