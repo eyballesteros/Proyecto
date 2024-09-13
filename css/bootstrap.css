@@ -444,7 +444,10 @@ padding: 10px;*/
 }
 
 .ContenedorContenido {
-  padding: 20px 0 20px;
+  text-align: center;
+  background-color: #0e471e;
+  padding: auto;
+  margin: auto;
   place-items: center;
   border-bottom: 1px solid #ccc;
 }
