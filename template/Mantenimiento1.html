@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="../assets/images/Logo.png" />
+  </head>
+  <div class="hcabecera"></div>
+  <! -- En esta seccion se Incluye la cabecera para que no cambie-->
+  <script>
+    $(document).ready(function () {
+      $(".hcabecera").load("../template/cabecera.html");
+    });
+    $(document).ready(function () {
+      $(".piepagina").load("../template/piepagina.html");
+    });
+  </script>
+
+  <div class="ContenedorContenido" style="text-align: center;">
+  <h2 class="titulo">EN ESPERA DE CARGA DE PROYECTOS</h2>
+  <p class="Descripcion">
+    Disculpe las molestias, en el momento no se ha realizado la carga del proyecto o no existe la modalidad consultada, intente de nuevo mas adelante
+  </p>
+  <img src="../assets/sitioEnConstruccion.png" alt="" />
+  <div class="piepagina"></div>
+</html>
