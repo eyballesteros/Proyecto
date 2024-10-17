@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="../assets/images/Logo.png" />
+  </head>
+  <div class="hcabecera"></div>
+  <! -- En esta seccion se Incluye la cabecera para que no cambie-->
+  <script>
+    $(document).ready(function () {
+      $(".hcabecera").load("../template/cabecera.html");
+    });
+    $(document).ready(function () {
+      $(".piepagina").load("../template/piepagina.html");
+    });
+  </script>
+
+  <div class="ContenedorContenidoMantenimiento"></div>
+  <h2 class="titulo bordeTitulo">Sitio en Mantenimiento</h2>
+  <p class="Descripcion">
+    Disculpe las molestias, el sitio se encuentra actualmente en Mantenimiento
+  </p>
+  <img src="../assets/sitioEnMantenimiento.png" alt="" />
+  <div class="piepagina"></div>
+</html>

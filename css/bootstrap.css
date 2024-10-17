@@ -451,11 +451,18 @@ padding: 10px;*/
 
 .Contenedorfotos {
   align-items: center;
+  text-align: center;
 }
 
 .ContenedorContenido {
   padding: 10px;
   vertical-align: middle;
+
+}
+.ContenedorContenidoMantenimiento {
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
 
 }
 
