@@ -14,5 +14,9 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html
 #RewriteRule ^([a-z]+)/?$ $1.html [NC]
 
+# .htaccess file
+RewriteEngine On
+RewriteRule ^Comunicacion/ContDigitales2024$ https://icy-sea-050a4800f.5.azurestaticapps.net/Comunicacion/ContDigitales2024.html [L]
+
 </IfModule>
 
